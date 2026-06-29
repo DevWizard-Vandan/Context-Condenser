@@ -1,0 +1,44 @@
+# Rust build artifacts
+/target/
+**/*.rs.bk
+*.pdb
+
+# Cargo lock file (optional - uncomment if you want to ignore it)
+# Cargo.lock
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Debug and profiling files
+*.profraw
+*.profdata
+*.prof
+
+# Test coverage
+tarpaulin-report.html
+cobertura.xml
+
+# Demo files
+demo.gif
+*.tape
+
+# Ollama model cache (if storing locally)
+.ollama/
+
+# Environment files
+.env
+.env.local
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
